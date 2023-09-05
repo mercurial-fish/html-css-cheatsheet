@@ -1,0 +1,52 @@
+
+/*Styling for the code */
+.code {
+    font-family: monospace;
+    background-color: aqua;
+}
+
+/*Body and headers */
+
+body {
+    margin: 0;
+    background-color: lavenderblush;
+    font-family: 'Trebuchet MS';
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+h1 {
+    color: indigo;
+}
+
+h2 {
+    color: darkviolet;
+}
+
+/*Table */
+
+table {
+    text-align: center;
+    table-layout: fixed;
+    border-collapse: collapse;
+    width: 700px;
+    margin: 20px auto;
+}
+
+table, th, td {
+    border: 2px solid indigo;
+}
+
+th, td {
+    padding: 5px;
+}
+
+thead tr {
+    background-color: plum;
+}
+
+tr:hover {
+    background-color: lightcyan;
+}
